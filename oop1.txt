@@ -1,1 +1,21 @@
+OOP INTRODUCTION:
 
+1. OOP - Object Oriented Programming:
+Java is an Object Oriented Programming Language ie. Everything in java revolves around Objects and Classes.
+
+2. Class: Basically a blueprint/Template out of which Objects can be created.
+It is also defined as a group of properties/methods an object can have.
+
+3. Object: Instance of a class (Why we need? class alone would be difficult to manipulate the properties of different data)
+
+4. How to create an object:
+Class_name obj_name=new Class_Name();
+Eg.Human shapna=new Human(); [where "new" is a keyword that is used to create an object and allocate some memory dynamically on heap
+                              shapna->reference variable(stored in stack) that points to the data in heap]
+class Human{
+   int name;
+   int age;
+   int eyes,ears,nose;
+}
+
+5. DOT operator(.)- it is used to access the properties inside the object. Eg.shapna.name="shapna" or System.out.println(shapna.name)
