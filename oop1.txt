@@ -1,4 +1,4 @@
-OOP INTRODUCTION:
+OOP INTRODUCTION: (IN JAVA ONLY INSIDE A CLASS WE CAN CREATE A FUNCTION)
 
 1. OOP - Object Oriented Programming:
 Java is an Object Oriented Programming Language ie. Everything in java revolves around Objects and Classes.
