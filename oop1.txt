@@ -19,6 +19,9 @@ class Human{
    boolean hasMobile(){ return true;} //method        [can be access like (System.out.println(shapna.hasMobile())]   or   [boolean hasMobile(boolean input){return input;}]
  }                                                    [System.out.println(shapna.hasMobile(true)]
 
+" if the class Human has method like [ static boolean hasMobile(){} ] then this can be accessed from the main function like Human.hasMobile() " - static(no need to create object because 
+  the method belongs to the class and not the instance of the class)
+
 5. DOT operator(.)- it is used to access the properties inside the object. Eg.shapna.name="shapna" or System.out.println(shapna.name)
 
 6. Method can have datatype, access modifiers (public,private and protected-"the file inside the same package and subpackage can access it") ,name ,param.
