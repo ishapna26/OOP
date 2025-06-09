@@ -1,0 +1,26 @@
+1. Encapsulation = "The attributes, methods and properties of a class is protected using getters and setters method" -> This ensures privacy and data protection.
+
+(OR) "Encapsulation is an object-oriented programming principle where the internal state (data) of an object is hidden from the outside world and can only be accessed or modified through public methods,
+      typically getters and setters.
+      This helps protect the data and maintain control over how it is accessed or changed."
+
+2. Inheritance (In realworld for eg. A E-bicycle and Pedal bicycle have same kinds of attributes like numberplate, horns, no of wheels etc. So while defining a class for them and repeating the 
+                same properties over and over they can inherit the attributes from a common class Bicycle (parent class) using "extend" keyword)
+NOTE : Here we often use "super() keyword" in subclass, inorder for the subclass to implement the constructor of the parent class. If we " dont use super()" keyword the " parent constructor wont gets executed. "
+                            |  
+  This super() function must be called only as a first element inside the subclass constructor otherwise java compiler doesnt know when to execute it leaving an error.
+
+
+3. PolyMorphism (many forms) - if an attribute or method that is present in superclass (parent class) is also present in its subclass, then we can override the implementation of the subclass, It prints subclass
+method/ attribute instead of parents class. In Default also it prints the same without overriding: @Override.
+ii. Method overloading: Functions / Methods that have same name but different parameters is called method overloading. Based on the param the comiler decides which one to get executed.
+
+These are the 2 basic concepts in polymorphism (taking different forms )
+
+4. Abstraction -> hiding the implementation but providing the necessary functions. (syntax: abstact class Human ) -> It must!!! have abstract method in a class.
+   The parent class should not provide implementation like printing/performing any sort of operation (but partial operation is also allowed). "But its subclass must provide its implementation!!!!"
+
+In JAVA we can also use "interface" to achieve abstraction the (interface should not have class keyword ie. interface Human)
+- Unlike abstract methods in abstract class it should not have abstract keyword. ie. void canTalk();
+- subclass should extend interface using "implement keyword"
+- cant have constructors since it is not a class
