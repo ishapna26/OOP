@@ -1,1 +1,39 @@
+There are 4 main concepts in OOPS:   " Abstraction, Polymorphism, Encapsulation and Inheritance. "
+
+import java.util.*;
+class Amazon{
+	String name;
+	int amazonPayBalanace;
+  public Amazon(can have params){
+      //constructor that gets executed the minute the object is instantiated.
+     //any number of constructores can be present in the class;
+  }
+}
+class Main{
+	public static void main(String[] args) {
+		Amazon shapna=new Amazon();  ---->  //Amazon() is a special method that creates instance of this class. (it is called default constructor that creates object for you).
+	}
+}
+
+1. constructor -> A constructor get implemented whenever the object for the class is instantiated. It has same name as that of class.
+2. this keyword -> it used to "refer to a particular attribute in the class". Eg. this.amazonPayBalance
+
+Example Program:
+
+import java.util.*;
+class Main{
+	public static void main(String[] args) {
+		amazonAccount shapna=new amazonAccount(200);//default constructor that creates instance/object of the class
+		System.out.println(shapna.amazonPayBalance);
+		
+	}
+}
+class amazonAccount{
+	String accountName;
+	int amazonPayBalance;
+	public amazonAccount(int amazonPayBalance) { //constructors parameter passing data type needs to be different !!!
+		this.amazonPayBalance=amazonPayBalance;
+		//this keyword refers to particular attribute in the class
+	}
+}
 
