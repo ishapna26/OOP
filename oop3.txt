@@ -24,3 +24,4 @@ In JAVA we can also use "interface" to achieve abstraction the (interface should
 - Unlike abstract methods in abstract class it should not have abstract keyword. ie. void canTalk();
 - subclass should extend interface using "implement keyword"
 - cant have constructors since it is not a class
+- can implement any number of interface where as in abstract class you can extend only one abstract class . It use default keyword for method eg ----> default void canTalk(). To mention its default implementation. it doesnt gets executed.
